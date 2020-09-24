@@ -1,12 +1,12 @@
+.background-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	width: 100%;
+	height: auto;	
+}
 
-/*body{
-
-  background-image: url('Kids-1.jpg'),url('Kids-2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-
-}*/
 
  .allbtn{
     display: flex;
@@ -14,12 +14,16 @@
 	align-items: flex-start;
 	flex-flow: row;
 	margin-top: 5px;
+	
+
 }
+
 .btn{
 	margin-right:16px;
 	padding: 10px;
 	font-size: 15px;
 	margin-top: 0;
+	background-attachment: fixed;
 }
 #title{
 	font-size: 35px;
@@ -68,3 +72,19 @@ table{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-weight: bold;
+}
+
